@@ -1,0 +1,119 @@
+nav {
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 58px 15 6px 15px;
+    background-color: #242526;
+    padding: 6px 15px;
+
+    .nav-menu {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        a {
+            i {
+                font-size: 20px;
+            }
+        }
+
+
+        .search-box {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            input {
+                height: 40px;
+                width: 244px;
+                color: #fff;
+                border: none;
+                outline: none;
+                background-color: #3a3b3c;
+                font-size: 15px;
+                border-radius: 0 50px 50px 0;
+                padding: 7px 9px;
+            }
+
+            .search-icon {
+                height: 40px;
+                background-color: #3a3b3c;
+                border-radius: 50px 0 0 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 7px 0 7px 12px;
+                color: #606770;
+            }
+        }
+
+    }
+
+    .left-nav {
+        .logo {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 4px;
+            // border-radius: 50%;
+            object-fit: cover;
+
+            img {
+                border-radius: 50%;
+            }
+
+        }
+    }
+
+    .main-nav {
+        a {
+            display: inline-block;
+            width: 111px;
+            color: #b0b3b8;
+        }
+
+    }
+
+    .right-nav {
+
+
+        div {
+            width: 40px;
+            height: 40px;
+            background-color: #3a3b3c;
+            margin-left: 10px;
+            border-radius: 50%;
+
+            a {
+                i {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 10px;
+                    color: #fff;
+                }
+
+                img {
+                    border-radius: 50%;
+                }
+            }
+
+        }
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.main-nav a:hover {
+    color: #2374e1;
+}
